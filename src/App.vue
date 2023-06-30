@@ -82,7 +82,7 @@
    <div class="image-container">
 
           <div class="sectioncolumn">
-          <a target="_self" href="#"> 
+          <a style=" text-decoration: none" target="_self" href="#"> 
             <p class="choiceimgside">
             <img src="./assets/노인장애인.png" alt="노인/장애인"> 
           </p>
@@ -93,17 +93,19 @@
           <div class="vertical-line"></div>
 
           <div class="sectioncolumn">
-          <a target="_self" href="#">
+          <a style=" text-decoration: none" target="_self" href="#">
             <p class="choiceimgside">
+              
             <img src="./assets/기초수급자.png" alt="기초수급자">
           </p>
             <p class="menutext">기초수급자</p>
           </a>
           </div>
+
           <div class="vertical-line"></div>
 
           <div class="sectioncolumn"> 
-          <a target="_self" href="#">
+          <a style=" text-decoration: none" target="_self" href="#">
             <p class="choiceimgside">
             <img src="./assets/임산부.png" alt="임산부">
           </p>
@@ -289,9 +291,10 @@
 }
 
 .vertical-line {
-  width: 0.09em;
-  height: 70%;
-  background-color: rgb(15, 14, 14); /* 구분선의 색상을 원하는 색으로 변경할 수 있습니다 */
+  width: 0.08em;
+  height: 140px;
+  background-color: rgb(202, 201, 201); /* 구분선의 색상을 원하는 색으로 변경할 수 있습니다 */
+  margin-bottom: 20px;
 }
 
 /* 사이드바 */
